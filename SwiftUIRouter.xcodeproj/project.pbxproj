@@ -10,9 +10,33 @@
 		2AFF7B5A2D381F450036EEA7 /* SwiftUIRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2AFF7B9C2D3826AC0036EEA7 /* Exceptions for "SwiftUIRouter" folder in "SwiftUIRouter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Extensions/DateExtensions.swift,
+			);
+			target = 2AFF7B592D381F450036EEA7 /* SwiftUIRouter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		2AFF7B9D2D3826AC0036EEA7 /* Exceptions for "SwiftUIRouter" folder in "Copy Bundle Resources" phase from "SwiftUIRouter" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 2AFF7B582D381F450036EEA7 /* Resources */;
+			membershipExceptions = (
+				Extensions/DateExtensions.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2AFF7B5C2D381F450036EEA7 /* SwiftUIRouter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2AFF7B9C2D3826AC0036EEA7 /* Exceptions for "SwiftUIRouter" folder in "SwiftUIRouter" target */,
+				2AFF7B9D2D3826AC0036EEA7 /* Exceptions for "SwiftUIRouter" folder in "Copy Bundle Resources" phase from "SwiftUIRouter" target */,
+			);
 			path = SwiftUIRouter;
 			sourceTree = "<group>";
 		};
