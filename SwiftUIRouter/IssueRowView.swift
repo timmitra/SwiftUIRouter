@@ -21,6 +21,6 @@ struct IssueRowView: View {
     }
 }
 
-//#Preview {
-//    IssueRowView(issue: <#Issue#>)
-//}
+#Preview {
+    IssueRowView(issue: Issue.mocks.last!)
+}
